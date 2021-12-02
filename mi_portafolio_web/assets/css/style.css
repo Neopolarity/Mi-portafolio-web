@@ -1,12 +1,19 @@
+html {
+	scroll-behavior: auto !important;
+
+}
+
+
 body {
 	font-family: Helvetica;
+	background-color: #F6F2F9;
 }
 
 
 /*navbar*/
 
 .navbar {
-	background-color: #000000;
+	background-color: #64586D;
 	position: fixed;
 	width: 100vw;
 	z-index: 1;
@@ -60,15 +67,21 @@ body {
 	color: #373a3c;
 	font-family: "Open Sans";
 	line-height: 3;
+	background-color: #F6F2F9;
 }
 
 .main_photo img {
 	width: 350px;
-	height: 450px;
+	height: 420px;
 	border-radius: 100%;
+	margin-left: 15px;
 }
 
 /*Mi Experiencia*/
+#Experiencia {
+	background-color: #E4E0E7;
+}
+
 
 #Experiencia div h1 {
 	font-family: "Oswald";
@@ -91,7 +104,7 @@ body {
 /*Mis Últimos Trabajos */
 
 #Trabajos {
-	background-color: #000000;
+	background-color: #64586D;
 	font-family: "Oswald";
 }
 
@@ -109,7 +122,7 @@ body {
 /* Footer */
 
 #Footer {
-	background-color: #000000;
+	background-color: #64586D;
 	font-family: "Oswald";
 }
 
